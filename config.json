@@ -1,0 +1,10 @@
+{
+  "hotkey": "ctrl+shift+f9",
+  "char_delay_ms": 10,
+  "max_length": 500,
+  "strip_trailing_newlines": true,
+  "multiline": "allow",
+  "confirm_above": 100,
+  "confirm_delay_ms": 1500,
+  "run_on_startup": false
+}
