@@ -86,6 +86,8 @@ Edit `config.json` in the same folder as the exe. Changes take effect on next la
 
 > **Note:** Non-ASCII characters (accented letters, CJK, emoji) are skipped — the `keyboard` library types via virtual key codes which are ASCII-only. Standard passwords and English text work fully.
 
+> **Antivirus false positive:** ClipType registers a global hotkey and simulates keystrokes — the same APIs used by keyloggers. Some AV engines flag it as suspicious. The binary is built with [Nuitka](https://nuitka.net) (compiled C, not a PyInstaller bundle) to minimise false positives, but you may still need to whitelist `ClipType.exe` in your AV. The full source is in this repo for inspection.
+
 ---
 
 ## Files
